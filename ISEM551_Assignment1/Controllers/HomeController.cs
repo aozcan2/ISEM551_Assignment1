@@ -17,6 +17,7 @@ namespace ISEM551_Assignment1.Controllers
 
         public IActionResult About()
         {
+            ViewData["Title"] = "About Me";
             ViewData["Message"] = "Your application description page.";
 
             return View();
@@ -24,6 +25,7 @@ namespace ISEM551_Assignment1.Controllers
 
         public IActionResult Contact()
         {
+            ViewData["Title"] = "Contact Title";
             ViewData["Message"] = "Your contact page.";
 
             return View();

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ISEM551_Assignment1</title>
+    <title>@ViewData["Title"] - ISEM 551 Assignments</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -26,7 +26,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">ISEM551_Assignment1</a>
+                <div class="navbar-brand-custom">
+                    <a asp-area="" asp-controller="Home" asp-action="Index" class="d-block align-top navbar-brand-custom"><img src="images/dev_logo.png" width="38.375" height="30">ISEM 551</a>
+                    <!--<a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">ISEM 551</a>-->
+                </div>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -38,13 +41,12 @@
         </div>
     </nav>
 
-    <partial name="_CookieConsentPartial" />
 
     <div class="container body-content">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2019 - ISEM551_Assignment1</p>
+            <p>&copy; 2019 - ISEM 551 Materials & Assignments by Ayhan Özcan</p>
         </footer>
     </div>
 

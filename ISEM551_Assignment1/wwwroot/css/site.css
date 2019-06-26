@@ -35,3 +35,27 @@ body {
         display: none;
     }
 }
+
+.navbar-brand-custom{
+    color: #9d9d9d;
+    background-color: transparent;
+
+    font-size: 14px;
+    padding-top:11px;
+    padding-bottom:15px;
+
+    line-height:20px;
+}
+
+.navbar-brand-custom:hover {
+    color: white;
+    background-color: transparent;
+
+    font-size: 14px;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    line-height: 20px;
+
+    text-decoration:none;
+}
+
