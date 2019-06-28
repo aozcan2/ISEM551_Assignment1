@@ -25,13 +25,18 @@ namespace ISEM551_Assignment1.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Title"] = "Contact Title";
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Title"] = "Contact Information";
+            ViewData["Message"] = "You can get in touch with me via:";
 
             return View();
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Material()
         {
             return View();
         }
