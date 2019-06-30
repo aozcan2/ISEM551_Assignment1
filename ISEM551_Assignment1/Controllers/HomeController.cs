@@ -17,22 +17,14 @@ namespace ISEM551_Assignment1.Controllers
 
         public IActionResult About()
         {
-            ViewData["Title"] = "About Me";
-            ViewData["Message"] = "Your application description page.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Title"] = "Contact Information";
             ViewData["Message"] = "You can get in touch with me via:";
 
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
             return View();
         }
 
